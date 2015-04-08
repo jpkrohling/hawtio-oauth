@@ -60,7 +60,7 @@ module HawtioKeycloak {
         }
       })
       .error(() => {
-        log.debug("Failed to initialize keycloak, token unavailable");
+        log.debug("Failed to initialize Keycloak, token unavailable");
         next();
       });
   });
